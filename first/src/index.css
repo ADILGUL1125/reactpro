@@ -1,0 +1,4 @@
+@import "tailwindcss";
+*{
+  text-transform: capitalize;
+}
