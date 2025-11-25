@@ -1,0 +1,17 @@
+#root{
+    width: 100%;
+}
+
+
+@media (min-width :2000px ){
+    #root {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+}
+#root >*{
+    width: 100%;
+    max-width: 2000px;
+}
